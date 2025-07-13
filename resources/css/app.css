@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-link {
+    @apply inline-flex items-center px-3 py-1 text-sm rounded-lg border border-gray-300 text-blue-600 bg-white transition duration-150 ease-in-out;
+    text-decoration: none;
+}
